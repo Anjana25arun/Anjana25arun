@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @Anjana25arun
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+-import streamlit as st
+st.title('Air quality index prediction')
 
-<!---
-Anjana25arun/Anjana25arun is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+st.write("""
+Air quality has always been one of the most important environmental concerns for the general
+public and society. Using machine learning algorithms for Air Quality Index (AQI) prediction is helpful
+for the analysis of future air quality trends from a macro perspective. When conventionally using a single
+machine learning model to predict air quality, it is challenging to achieve a good prediction outcome under
+various AQI fluctuation trends.
+""")
+
+st.button("PREDICT", type="primary") 
